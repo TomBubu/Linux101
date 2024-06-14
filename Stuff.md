@@ -27,8 +27,7 @@ Do properly: root@fhsw-web:/# mount -t vboxsf -o uid=1000,gid=1000 VMs-shared /m
 sudo dpkg -i ~/Downloads/*.deb
 
 # Make root prompt red
-PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-
+""" PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' """
 
 http://www.mogilowski.net/lang/en-us/2011/12/29/color-bash-prompt-on-ubuntu-and-debian/
 Edit ”/root/.bashrc” and change ”force_color_prompt=yes” like for your user
