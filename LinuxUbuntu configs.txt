@@ -1,0 +1,26 @@
+######################################################
+##Apache2, PHP5, MySQL/i, PhpMyAdmin configurations:##
+######################################################
+
+https://forum.directadmin.com/showthread.php?t=33062
+http://stackoverflow.com/questions/22721630/the-mcrypt-extension-is-missing-please-check-your-php-configuration
+	sudo apt-get install php5-mcrypt
+	sudo ln -s /etc/php5/conf.d/mcrypt.ini /etc/php5/mods-available
+	sudo php5enmod mcrypt 
+	sudo service apache2 restart
+https://wiki.apache.org/httpd/CommonMisconfigurations
+https://help.ubuntu.com/community/ApacheMySQLPHP
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04
+
+http://www.cyberciti.biz/faq/linux-apache2-change-default-port-ipbinding/
+https://www.digitalocean.com/community/tutorials/how-to-configure-the-apache-web-server-on-an-ubuntu-or-debian-vps
+
+vim /etc/apache2/sites-enabled/000-default.conf
+	- File where document root is located
+
+
+#######################
+##NTP Configurations:##
+#######################
+http://en.linuxreviews.org/NTP_-_Howto_make_the_clock_show_the_correct_time#Installing_ntpd
+

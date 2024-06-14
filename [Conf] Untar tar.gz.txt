@@ -1,0 +1,10 @@
+Syntax
+
+The syntax is as follows:
+
+tar options file.tar.gz
+tar options file.tar.gz pattern
+tar -xf file.tar.gz
+tar -xvf file.tar.gz
+tar -zxvf file.tar.gz
+tar -zxvf file.tar.gz file1 file2 dir1 dir2
