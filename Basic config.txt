@@ -1,0 +1,52 @@
+1. Shortcuts
+-in System settings - Shortcuts and settings - Examples - 
+Terminal
+  CTRL ALT T
+  gnome-terminal
+Konsole
+  CTRL SHIFT T
+  konsole
+
+2. Appearance
+a) Application appearance
+b) Workspace appearance
+
+a) Colours - fruit-black-normal - edit:
+View text - #4FA8FF
+Window text - #4FA8FF
+Button text - #4FA8FF
+
+b) Window decorations - Get new decorations - "Air black"
+Desktop theme - Oxygen
+Cursor theme - Oxygen neon
+
+3. Mozilla Firefox Search bars/Text bars
+With Dolphin open Home folder, show hidden files (ALT+.), go to /.mozilla/firefox/d0raig0g.default/chrome/
+and edit "userContent.css". 
+If the "chrome" folder or the file don't exit, create it.
+Write to it following lines:
+INPUT, TEXTAREA {color: #4FA8FF !important; background: #000000 !important }
+
+4. Show Root actions in right mouse button menu
+Open Dolphin, Control, Configure Dolphin, Services, Download new services, find Root Actions Servicemenu by Kubicle
+
+5. Firefox addons:
+Colorify Firefox
+FT DeepDark theme
+
+
+6. Automaticke mountovanie:
+a) Ak mam GUI: editnem subor v "home", ".xinitrc" a pripisem don napriklad:
+ #mount.cifs //192.168.1.2/g /root/Documents/WindowsShares/Bravo0/G:Barracuda -o user=Bubu
+ #mount.cifs //192.168.1.2/f /root/Documents/WindowsShares/Bravo0/F:Caviar -o user=Bubu
+
+ mount.cifs //192.168.1.2/g /home/WindowsShares/GBarracuda -o user=Bubu
+ mount.cifs //192.168.1.2/f /home/WindowsShares/FCaviar -o user=Bubu
+
+ 
+b) Ak nemam GUI: editujem subory v  /etc/rc.*
+rc.modules - pre Kernel moduly
+rc.d - pre Programy (napr. ako Teamviewer	(v Ubuntu je to init.d)
+rc.local - napr. moje mountovanie vzialenych suborov
+Ak napisem script, mozem ho dat do rc.d.
+
