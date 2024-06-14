@@ -166,3 +166,135 @@ If aireplay-ng say that the channel is not correct
 1) ifconfig mon0 down
 2) iwconfig mon0 channel 6
 3) ifconfig mon0 up
+
+# Important commands
+Disk operations:
+df -h
+mount
+fdisk -l
+
+Photorec:
+photorec /dev/"disk_name"
+photorec /dev/vda2
+
+
+Sshfs:
+sshfs research@mirror.digmia.com:/home/research /mnt
+password: tomaszboril.2015
+-- issue mount for check, if it's mounted
+
+ERROR:
+fuse: bad mount point - Transport endpoint is not connected
+FIX: 
+kill sshfs processes > pkill sshfs ??
+unmount it > umount -l /mnt (as root)
+mount it > sshfs research@mirror.digmia.com:/home/research /mnt
+-- issue mount for check, if it's mounted
+
+
+Copy from research@mirror.digmia.com:
+scp /mnt/Webhostingy/recup_dir.1/filename.type ~/Desktop 
+scp /mnt/Webhostingy/recup_dir.1/* /home/bubu/Desktop/Webhostingy/recup_dir.1
+
+ERROR:
+cp: omitting directory ‘/mnt/Websupport/recup_dir.1’
+FIX:
+scp -r /mnt/Websupport/recup_dir.1 /home/bubu/Desktop/Websupport/
+
+
+List directories/files:
+find ./ -type d
+
+Directory & file size:
+du -sh directory ENTER
+ls -sh filename
+
+Delete directory with files:
+rm -rf "folder.name"
+
+Rename directory:
+mv old-dir-name new-dir-name
+mv /path/to/old /path/to/new
+
+Killing process:
+sudo pkill "process_name"
+Process_name = napr. kate, ping ....
+
+Looking for keywords:
+grep -i -E "pass|card|number|admin|root" *
+* = all files in currect directory
+-E = all keywords in "..."
+
+Charakterizacia vsetkych fileov:
+find . -type f -exec file {} \;
+
+Remove all files of one type in all folders:
+rm -rf */*.png
+
+Shutdown PC:
+shutdown -h now
+
+# Important programt
+Grub customizer:
+  sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+  sudo apt-get update
+  sudo apt-get install grub-customizer
+
+Gparted:
+  sudo apt-get install gparted
+  
+Sshfs:
+  sudo apt-get install sshfs
+
+TestDisk:
+  sudo apt-get install testdisk
+
+# Chmod & Chown
+bubu@Bravo1:~/Desktop$ sudo -s
+root@Bravo1:~/Desktop# chown root rec
+root@Bravo1:~/Desktop# chmod 777 rec -R
+root@Bravo1:~/Desktop# ls -la rec
+
+# Apache2 config
+no, praveze nic, povolis AllowOverride na All z None v /etc/apache2/apache2.conf, dalej v /etc/php5/apache2/php.ini zmenis display_error na On, dalej do konzoli napises sudo a2enmod rewrite a to by mala byt asi cela ta zakladna konfiguracia apachu
+[12:01] <c04n0s> este samozrejme chmod -R 777 /var/www
+
+sudo apt-get purge apache* php* mysql* phpmyadmin && sudo apt-get autoremove && sudo apt-get install apache2 php5 php5-mysql mysql-server phpmyadmin
+
+[12:20] <c04n0s> sudo dpkg-reconfigure mysql-server
+[12:20] <c04n0s> potom
+[12:20] <c04n0s> sudo dpkg-reconfigure phpmyadmin
+[12:41] <c04n0s> najprv skus sudo service apache2 restart
+[12:41] <c04n0s> najprv skus sudo service mysqld restart
+
+http://stackoverflow.com/questions/1420839/cant-connect-to-mysql-server-error-111
+http://www.itnetwork.cz/ubuntu-konfigurace-lampp
+
+# Screen
+screen
+enter
+top
+ctrl ad - detach
+vypnem konzolu
+screen -r   ,, je tam :)
+
+# Sietovy konfig - old
+vim:
+pisem stlacenim INSERT
+vypnem pisanie ESC
+zatvorim a ulozim 	:wq
+
+(v konzole prepinam ALT a sipky)
+
+
+konfiguracia eth0 
+
+vim /etc/network/interfaces
+vi -||-
+
+reset sietoveho adapteru
+sudo invoke-rc.d networking restart
+
+uprava DNSiek
+vim /etc/resolv.conf
+
