@@ -37,6 +37,13 @@ root@ubuntu:~# reboot
 Normal login.
 
 # Links 
+http://www.server-world.info/en/note?os=CentOS_7&p=x&f=2
+https://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/install.html#id2551914
+http://www.djvuviewer.com/
+http://askubuntu.com/questions/187243/how-to-mount-a-samba-share-at-boot-time
+http://www.ghacks.net/2009/04/19/auto-mounting-a-samba-share-in-linux/
+wiki.centos.org/TipsAndTricks/WindowsShares#head-9d5b00e8e14089e8970de5f7a047616a32feb376
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-2.html#ss2.1
 https://www.linkedin.com/pulse/network-automation-via-python-mostafa-hassan
 https://pynet.twb-tech.com
 http://packetpushers.net/intro-python-network-automation/
