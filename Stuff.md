@@ -1,10 +1,3 @@
-# Remove Edge browser from Win10
-cd C:\Program Files (x86)\Microsoft\Edge\Application\83.0.478.61\Installer 
-setup.exe --uninstall --system-level --verbose-logging --force-uninstall 
-
-# Disable Hiberfil.sys (Win10)
-Klikni na start, napis cmd a klikni nan pravym a spusti ho ako spravca. V nom potom zadaj powercfg -h off tym za zbavis hiberfil.sys
-
 # Mount vbox shared folder on linux
 Do not do: mount -t vboxsf -o uid=1000,gid=1000 VMs-shared /mnt
 - /mnt remains empty
