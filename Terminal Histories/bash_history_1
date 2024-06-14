@@ -1,0 +1,166 @@
+logout
+sudo
+apt-get install sudo
+su
+krunner
+sudo krunner
+settings
+sudo dpkg -l | grep -i mysql
+apt-get install mageia
+sudo apt-get install mageia
+sudo apt-get install synaptic
+gksudo
+sudo apt-get install gksudo
+gksudo
+sudo apt-get install gksu
+gksudo synaptic
+firefox/firefox
+sudo apt-get install qapt-deb-installer 
+sudo qapt
+sudo qapt-deb-installer 
+gksu qapt-deb-installer 
+cd Documents/
+ls
+gksu qapt-deb-installer teamviewer_11.0.53191_amd64.deb 
+gksu qapt-deb-installer virtualbox-5.0_5.0.14-105127~Debian~jessie_amd64.deb 
+gksu qapt-deb-installer 
+teamviewer
+gparted
+apt-get install gparted
+sudo apt-get install gparted
+sudo gparted
+xhost +localhost
+sudo gparted
+vim .bashrc 
+sudo gparted
+vim .bashrc 
+gnome-disks
+arp -a
+arp -a
+df -h
+fdisk -l
+fdisk
+sudo fdisk -l
+xrandr
+xrandr
+sudo 
+sudo apt-get install firmware-realtek 
+sudo aptitude install libreoffice libreoffice-kde 
+df -h
+sudo aptitude install libreoffice libreoffice-kde 
+writer
+libreoffice
+echo 'OOO_FORCE_DESKTOP=kde libreoffice --quickstart --nologo --nodefault' >  ~/.kde/Autostart/lo.sh
+chmod +x ~/.kde/Autostart/lo.sh
+libreoffice
+apt-get install fonts-crosextra-carlito fonts-crosextra-caladea
+sudo apt-get install fonts-crosextra-carlito fonts-crosextra-caladea
+sudo apt-get install zip unzip
+ls /etc/fonts/fonts.conf 
+vim /etc/fonts/fonts.conf 
+cd /usr/share/fonts/
+ls
+cd X11/
+ls
+cd ..
+cd /usr/share/
+ls
+cd fonts
+alsactl -init
+pulseaudio --start
+sudo apt-get install pulseaudio
+pulseaudio --start
+pavucontrol
+sudo apt-get install pavucontrol
+pavucontrol 
+sudo sensors-detect
+/proc/meminfo
+sudo /proc/meminfo
+sudo cat /proc/meminfo
+free -m
+free -m -t
+free -t -m
+sudo apt-get install htop
+te
+lsusb
+sudo visudo
+virtualbox 
+apt-get install git
+sudo apt-get install git
+kfc
+htop
+sudo dpkg --add-architecture i386 
+df -h
+soundconverter
+sudo apt-get install lame
+soundconverter
+lame
+sudo apt-get install gstreamer0.10-plugins-ugly
+apt-get autoremove 
+sudo apt-get autoremove 
+apt-get install ubuntu-restricted-extras
+sudo apt-get install ubuntu-restricted-extras
+sudo apt-get remove soundconver 
+sudo apt-get remove soundconverter 
+sudo apt-get install ffmpeg libavcodec-unstripped-52
+winff
+ssh bubu@85.216.139.82
+sudo apt-get install ksnapshot
+ksnapshot 
+ksnapshot
+df -h
+snapshot
+ksnapshot
+ssh bubu@85.216.139.82
+ssh bubu@85.216.139.82
+sudo ssh bubu@85.216.139.82
+fg
+oaskod
+fg
+sudo ssh bubu@85.216.139.82
+cat .ssh/known_hosts 
+fh
+fg
+ssh bubu@85.216.139.82
+sudo ssh bubu@85.216.139.82
+fh
+fd
+df
+fg
+sudo ssh bubu@85.216.139.82
+bdf
+cat /var/log/messages | grep test
+sudo cat /var/log/messages | grep test
+sudo cat /var/log/messages
+sudo vim /etc/ssh/sshd_config 
+sudo vncserver
+find
+cd
+cd..
+cd ..
+sudo apt-get intall qalculate-gtk
+sudo apt-get install qalculate-gtk
+qalculate
+sudo apt-get install kdegraphics-thumbnailers
+sudo apt-get remove gdp
+sudo apt-get remove gdb
+echo bubuso95 Ponorka105 | skype --pipelogin --callto bubusko95
+skype
+echo bubuso95 Ponorka105 | skype --pipelogin --callto bubusko95
+sudo apt-get dist-upgrade 
+sudo apt-get autoremove 
+sudo apt-get autoclean 
+calculator
+sudo apt-get install clamav
+sudo apt-get install clamtk
+sudo clamtk
+sudo freshclam
+htop
+service apache2 status
+bc
+freshclam
+sudo freshclam
+sudo lsof /var/log/clamav/freshclam.log 
+gsku
+gksu
+gksu clamtk 

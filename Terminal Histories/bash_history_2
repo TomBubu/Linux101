@@ -1,0 +1,375 @@
+    1  sudo apt-get install vim
+    2  vim
+    3  vim
+    4  cd
+    5  dh -f
+    6  sudo apt-get install debhelper
+    7  sudo apt-get update
+    8  sudo apt-get install debhelper
+    9  sudo apt-get install debhelper --fix-missing
+   10  sudo apt-get gedit
+   11  sudo apt-get install gedit
+   12  cd /media
+   13  ls
+   14  ls-a
+   15  ls -l
+   16  ls -lh
+   17  ls -lha
+   18  cd/dev
+   19  cd
+   20  cd /dev
+   21  ls
+   22  cd
+   23  cd /sba
+   24  sba
+   25  cd /sda
+   26  cd /sda1
+   27  cd /dev/sda1
+   28  cd /dev/sda
+   29  cd /dev
+   30  cd
+   31  dh
+   32  dh -f
+   33  sudo apt-get install debhelper
+   34  df -h
+   35  cd /dev/sda1
+   36  cd /dev/
+   37  ls
+   38  ls -h
+   39  ls -haf
+   40  ls -ha
+   41  more sda1
+   42  cat sda1
+   43  sda1
+   44  cd /sda1
+   45  chown root sda1
+   46  cd
+   47  sudo apt-get install vim
+   48  sudo apt-get install gedit
+   49  sudo apt-get remove flash
+   50  sudo apt-get remove flash-player
+   51  sudo apt-get remove flashplayer
+   52  sudo apt-get remove adobeflashplayer
+   53  sudo apt-get remove adobeflash
+   54  sudo apt-get remove adobe-flash
+   55  sudo list package
+   56  sudo list packages
+   57  sudo packages
+   58  clear
+   59  sudo apt-get remove flashplayer-nonfree
+   60  sudo apt-get remove flashplayer
+   61  sudo apt-get remove --purge flashplugin-installer flashplugin64-installer
+   62  sudo apt-get remove --purge flashplugin-installer flashplugin64
+   63  sudo apt-get remove --purge flashplugin-installer
+   64  sudo apt-get clean
+   65  sudo apt-get update
+   66  sudo apt-get install flashplugin64-installer
+   67  sudo apt-get install flashplugin64
+   68  sudo apt-get install flashplugin6
+   69  sudo apt-get install flashplugin
+   70  sudo apt-get install flashplugin-installer
+   71  exit
+   72  ping www.google.com
+   73  ping
+   74  ping www.facebook.com
+   75  ping 127.0.0.1
+   76  ping 192.168.1.10
+   77  ping www.facebook.com
+   78  ping www.google.com
+   79  apt-get install skype
+   80  exit
+   81  sudo
+   82  sudo -root
+   83  sudo root
+   84  sudo bubu
+   85  sudo -s
+   86  exit
+   87  cd media
+   88  cd /media
+   89  ls
+   90  cd /bubu
+   91  ls
+   92  cd /bubu
+   93  bubu
+   94  cat bubu
+   95  cd /bubu/
+   96  up
+   97  cd
+   98  cd /media/bubu
+   99  ls
+  100  cd win7
+  101  cd /Win_7
+  102  cd /"Win 7"
+  103  cd /Win 7
+  104  cd /Win 7/
+  105  cd /Win_ 7/
+  106  cd /Win_7/
+  107  cd /bubu/Win7
+  108  cd /bubu/Win 7
+  109  cd /bubu/"Win 7"
+  110  cd
+  111  cd /media/bubu/Win 7
+  112  cd /media/bubu/"Win 7"
+  113  ls
+  114  Users
+  115  cd Users
+  116  ls
+  117  cd Bubu
+  118  ls
+  119  cat x.log
+  120  ls
+  121  exit
+  122  cd /trash
+  123  cd /trash/
+  124  chown root /dev/sda1
+  125  chmod 777 /dev/sda1
+  126  chmod 777 /dev/
+  127  chmod 777 /
+  128  sudo apt-get install testdisk
+  129  testdisk
+  130  photorec
+  131  qexit
+  132  exit
+  133  rm -rf /.local/trash/fileň
+  134  rm -rf /.local/trash/file
+  135  cd /.local/trash
+  136  cd /trash
+  137  cd /home/bubu/.local/share/Trash
+  138  ls
+  139  ls files
+  140  cd
+  141  ls
+  142  cd /home/bubu/.local/share/Trash
+  143  ls
+  144  rm -rd metadata
+  145  rm -rd metadatainfo
+  146  rm -rd info
+  147  rm -rd files
+  148  ls
+  149  cd
+  150  cd /home/bubu/.local/
+  151  ls
+  152  cd share
+  153  ls
+  154  cd trash
+  155  cd Trash
+  156  ls
+  157  exit
+  158  cd /home/bubu/.local/
+  159  ls
+  160  cd share
+  161  cd Trash
+  162  cd
+  163  cd /home/bubu/.local/
+  164  cd share
+  165  cd Trash
+  166  ls
+  167  cd files
+  168  ls
+  169  ls -a
+  170  ls -ahl
+  171  cd Trash
+  172  cd ..
+  173  rmdir -r files
+  174  rmdir files
+  175  rmdir info
+  176  lds
+  177  ls
+  178  exit
+  179  su rm -rf of ~/.local/Trash/fil
+  180  su rm -rf ~/.local/Trash/fil
+  181  su rm -rf /.local/Trash/fil
+  182  sudo rm -rf /.local/Trash/fil
+  183  sudo -s
+  184  exit
+  185  rmdir rec -r
+  186  rmdir -?
+  187  rmdir help
+  188  rmdir --help
+  189  rm -Rf /rec
+  190  gksu nautilus
+  191  sudo chmod -R 777 /
+  192  chmod ugo+w rec
+  193  chmod rec
+  194  ls -la rec
+  195  chmod 777 rec
+  196  ls -la rec
+  197  chmod 777 /rec
+  198  chmod 777 rec
+  199  ls -la rec
+  200  chmod --help
+  201  chmod 777 rec
+  202  chmod 777 rec -R
+  203  chmod 777 rec2 -R
+  204  ls -la rec2
+  205  exit
+  206  ktrash --empty
+  207  gparted
+  208  rm /.local/share/Trash/metadata
+  209  r/.local/share/Trash/metadata
+  210  cd Destkop
+  211  cd Desktop
+  212  chown root rec
+  213  chmod ugo+w
+  214  chmod ugo+w rec
+  215  cahttr -i -a 
+  216  cahttr -i -a rec
+  217  ls -la
+  218  rmdir -r rec
+  219  rmdirrec
+  220  sudo rmdir rec
+  221  sudo-s
+  222  sudo -s
+  223  exit
+  224  find -help
+  225  cd Desktop
+  226  find . -name ".elf" -type
+  227  find . -name ".elf" -type f
+  228  find . -name ".elf" -type f /rec
+  229  find . -name ".elf" -type f /rec/
+  230  rm -help
+  231  rm --h
+  232  rm -rf *.elf
+  233  rm -rf *.elf /rec
+  234  rm *.elf /rec -r
+  235  rm --h
+  236  rm -rf *.elf /rec
+  237  rm -rf *.elf /Desktop/rec/
+  238  rm -rf *.elf /Desktop/rec/recup_dir.
+  239  rm -rf *.elf /Desktop/rec/recup_dir.51
+  240  rm -rf *.h /Desktop/rec/recup_dir.51
+  241  rm -rf *.c /Desktop/rec/recup_dir.51
+  242  rm -rf *.svg /Desktop/rec/recup_dir.51
+  243  ktrash --empty
+  244  rm -rf *.svg /Desktop/rec/recup_dir.51
+  245  shred
+  246  shred --help
+  247  rm -r --h
+  248  clear
+  249  rm --help
+  250  cd rec
+  251  ls
+  252  rm --help
+  253  rm -rv all
+  254  rm -rv *.svg
+  255  sudo -s
+  256  rm -rv *.svg
+  257  rm -rv */*.jpg
+  258  rm -rv */*.svg
+  259  rm -rv */*.elf
+  260  rm -rv */*.svg
+  261  rm -rv */*.jpg
+  262  rm -rv */*.h
+  263  rm -rv */*.c
+  264  rm -rv */*.html
+  265  rm -rv */*.xml
+  266  rm -rv */*.tar
+  267  rm -rv */*.gz
+  268  rm -rv */*.rar
+  269  rm -rv */*.zip
+  270  rm -rv */*.tar.gz
+  271  rm -rv */*.sh
+  272  png
+  273  rm -rv */*.png
+  274  rm -rv */*.gif
+  275  rm -rv */*.py
+  276  rm -rv */*.ttf
+  277  rm -rv */*.java
+  278  rm -rv */*.pl
+  279  rm -rv */*.exe
+  280  rm -rv */*.deb
+  281  rm -rv */*.sqlite
+  282  rm -rv */*.dll
+  283  cd
+  284  cd Desktop/rec2
+  285  rm -rv */*.sqlite
+  286  rm -rv */*.exe
+  287  rm -rv */*.deb
+  288  rm -rv */*.html
+  289  rm -rv */*.jaa
+  290  rm -rv */*.java
+  291  rm -rv */*.elf
+  292  rm -rv */*.tar
+  293  rm -rv */*.tar.gz
+  294  rm -rv */*.gz
+  295  rm -rv */*.rar
+  296  rm -rv */*.zip
+  297  rm -rv */*.xml
+  298  rm -rv */*.bz
+  299  rm -rv */*.bz2
+  300  rm -rv */*.ttf
+  301  rm -rv */*.pyc
+  302  rm -rv */*.gif
+  303  rm -rv */*.jpg
+  304  rm -rv */*.png
+  305  rm -rv */*.a
+  306  rm -rv */*.h
+  307  rm -rv */*.c
+  308  rm -rv */*.mpg
+  309  rm -rv */*.csv
+  310  rm -rv */*.ppt
+  311  find */*.txt
+  312  find */*.txt > list.txt \Desktop
+  313  find */*.txt > list.txt /Desktop
+  314  find */*.txt > list.txt Desktop
+  315  find */*.txt > list.txt 
+  316  cd
+  317  cd /Desktop/rec
+  318  cd Desktop/rec
+  319  find */*.txt > list.txt
+  320  find */*.* > listall.txt
+  321  rm -rv */*.ini
+  322  mv */*.txt txt
+  323  mkdir txt
+  324  mv */*.txt txt
+  325  find
+  326  cd Desktop
+  327  cd rec
+  328  find */*.ppt
+  329  find */*.csv
+  330  find */*.mpg
+  331  find */*.a
+  332  find */*.png
+  333  find */*.jpg
+  334  find */*.gif
+  335  find */*.pyc
+  336  find */*.bz2
+  337  find */*.dll
+  338  find */*.ini
+  339  cd
+  340  cd Desktop/rec2
+  341  rm -rd */*.ini
+  342  mkdir txt
+  343  mv txt */*.txt
+  344  mv * */*.txt txt
+  345  mv */*.txt txt
+  346  mv * *.txt tx
+  347  mv */*.txt txt
+  348  empty -trash
+  349  trash --empty
+  350  ktrash --empty
+  351  exit
+  352  testdrive
+  353  q
+  354  photorec
+  355  cd Desktop
+  356  cd /rec
+  357  cd rec
+  358  chmod * 777
+  359  cd
+  360  chmod root 
+  361  chmod root 777 rec
+  362  chmod root 777 /rec
+  363  chmod ugo+w rec
+  364  cd Desktop
+  365  chmod ugo+w rec
+  366  ls -la rec
+  367  chmod -r 777 rec
+  368  chmod -r rec 777 
+  369  chmod -h
+  370  chmod --h
+  371  chmod -R rec
+  372  chmod -R 777 rec
+  373  chmod -vR 777 rec
+  374  chmod --h
+  375  history > history.txt
