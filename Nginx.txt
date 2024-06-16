@@ -1,0 +1,17 @@
+tail -f /var/log/nginx/error.log
+/etc/nginx/sites-available
+/var/log/nginx
+
+sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
+
+
+tls ssl certbot
+https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04
+
+Search text in files:
+grep -irl "string" /path 2> /dev/null
+
+
+
+
+- pls map www.dl.fhsw-europe.com to dl.fhsw-europe.com as a CNAME
