@@ -1,0 +1,25 @@
+vim ~/.vimrc
+
+ set number
+ set autoindent
+ set cursorline
+ set tabstop=4
+ set shiftwidth=4
+ set expandtab
+ set ignorecase
+ set showcmd
+ set showmatch
+ set hlsearch
+ set history=1000
+ syntax on
+ filetype on
+ highlight Comment ctermfg=blue  / grey
+ highlight Number ctermfg=red
+
+//:hi for list of all highlight options
+//:source ~/.vimrc
+
+https://github.com/chr4/nginx.vim
+	mkdir -p ~/.vim/pack/plugins/start
+	cd ~/.vim/pack/plugins/start
+	git clone https://github.com/chr4/nginx.vim.git
