@@ -6,3 +6,5 @@ ufw insert 1 deny from [ip] to any
 ufw allow <port>/<proto, e.g. tcp, udp>
 ufw allow proto tcp from any to any port 80
 ufw allow proto tcp from any to any port 443
+
+#Alias in ~/.bashrc for "ufw status numbered" = "usn"
